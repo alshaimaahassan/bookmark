@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">
+<!-- start header -->
+<header>
+    <div class="mob-list">
+        <img id="close-list" src="images/icon-close.svg"/>
+<div class="list-header">
+<a href="#FEATURES">FEATURES</a>
+<a href="#PRICING">PRICING</a>
+<a href="#CONTACT">CONTACT</a>
+<button>Login</button>
+    </div>
+    <div class="icons">
+        <img src="images/icon-facebook.svg">
+        <img src="images/icon-twitter.svg">
+    </div>
+    </div>
+    <!-- /////////////////////////////// -->
+<img src="images/logo-bookmark.svg" class="logo-bookmark">
+<div class="header-group">
+<a href="#FEATURES">FEATURES</a>
+<a href="#PRICING">PRICING</a>
+<a href="#CONTACT">CONTACT</a>
+<button>LOGIN</button>
+</div>
+<img src="images/icon-hamburger.svg" id="icon-hamburger"/>
+</header> 
+<!-- end header -->
+<!-- start hero -->
+<section class="hero">
+    <div class="text">
+        <h1>A simple Book Mark Manger</h1>
+        <p>Lorem ipsumum perferendis non asperiores tempore provident cupiditate qui nemo totam omnis natus repellat nobis nulla eveniet dolor.</p>
+        <button id="Chrome">Git it on Chrome</button>
+        <button id="Firefox">Git it on Firefox</button>
+    </div>
+    <div class="imgCont">
+    <img src="images/illustration-hero.svg">
+    <span class="span"></span>
+    </div>
+    
+</section>
+<!-- end hero -->
+<!-- start features -->
+<section class="features">
+<div class="text">
+<h1>Features</h1>
+<p>Quibusdam, pariatur. Iusto sint nisi blanditiis voluptas, illum sunt cum dolor at ipsa impedit consequatur ut, rerum, aperiam quae libero. Facere, facilis.</p>
+<div class="choices">
+    <button id="simple" >Simple Bookmarking</button>
+    <button id="speedy">Speedy Searching</button>
+    <button id="easy">Easy Sharing</button>
+    </div>
+    </div>
+    <div class="choices-content">
+        <div class="imgCont">
+            <img src="images/illustration-features-tab-1.svg" id="choiceImg">
+        </div>
+        <span class="span"></span>
+        <div class="choices-text">
+            <h1 id="choiceHead">simple Book Mark</h1>
+            <p id="choiceText">Lorem ipsumum perferendis non asperiores tempore provident cupiditate qui nemo totam omnis natus repellat
+                nobis nulla eveniet dolor.</p>
+            <button>More info</button>
+        </div>
+    </div>
+    </section>
+
+<!-- end features -->
+<!-- start download -->
+<section class="download">
+    <div class="text">
+        <h1>Download the extension</h1>
+        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>      
+    </div>
+    <div class="cards">
+        <div class="card" id="cardOne">
+            <img src="images/logo-chrome.svg" alt="">
+            <h4>Add to Chrome</h4>
+            <h5>Minimum version 62</h5>
+            <img src="images/bg-dots.svg" alt=""class="dots">
+            <button>Add & Install Extension</button>
+        </div>
+        <div class="card" id="cardTwo">
+            <img src="images/logo-firefox.svg" alt="">
+            <h4>Add to Firfoxe</h4>
+            <h5>Minimum version 62</h5>
+            <img src="images/bg-dots.svg" alt="" class="dots">
+            <button>Add & Install Extension</button>
+        </div>
+        <div class="card" id="cardthree">
+            <img src="images/logo-opera.svg" alt="" >
+            <h4>Add to Opera</h4>
+            <h5>Minimum version 62</h5>
+            <img src="images/bg-dots.svg" alt="" class="dots">
+            <button>Add & Install Extension</button>
+        </div>
+    </div>
+</section>
+<!-- end download -->
+<!-- start FAQ -->
+<section class="sliderDown">
+<div class="text">
+    <h2>Frequently Asked Questions</h2>
+    <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+</div>
+    <div class="content">
+    <div class="q">
+    <hr>
+    <h4 class="toglle" onclick="handleFAQ(id)" id="0"> vary important words <img src="images/icon-arrow.svg"/></h4>
+    <div class="inner">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium explicabo pariatur nesciunt esse, neque minus, blanditiis, deserunt exercitationem nulla libero quam quis vero magni mollitia maxime iusto ullam earum.</div>
+    <hr> 
+    </div>
+
+    <div class="q">
+    <h4 class="toglle"  onclick="handleFAQ(id)" id="1"> vary important words <img src="images/icon-arrow.svg"/></h4>
+    <div class="inner">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium explicabo pariatur nesciunt esse, neque minus, blanditiis, deserunt exercitationem nulla libero quam quis vero magni mollitia maxime iusto ullam earum.</div>
+    <hr>
+    </div>
+
+    <div class="q">
+    <h4 class="toglle"  onclick="handleFAQ(id)" id="2"> vary important words <img src="images/icon-arrow.svg"/></h4>
+    <div class="inner">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium explicabo pariatur nesciunt esse, neque minus, blanditiis, deserunt exercitationem nulla libero quam quis vero magni mollitia maxime iusto ullam earum.</div>
+    <hr> 
+    </div>
+
+    <div class="q">
+    <h4 class="toglle"  onclick="handleFAQ(id)" id="3"> vary important words <img src="images/icon-arrow.svg"/></h4>
+    <div class="inner">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium explicabo pariatur nesciunt esse, neque minus, blanditiis, deserunt exercitationem nulla libero quam quis vero magni mollitia maxime iusto ullam earum.</div>
+    <hr>
+</div>
+</div>
+<button>More info</button>
+</section>  
+</div>
+<!-- end FAQ -->
+<!-- start footer -->
+<footer>
+    <div class="text">
+    <h6>35,000+ ALREADY JOINED</h6>
+    <h2>Stay up-to-date with what we’re doing</h2>
+    <div class="email-box">
+<div class="emailCont">
+    <input type="email" placeholder="Enter your email" id="email">
+    </div>
+        <button onclick="emailHandler()">Contact us</button></div>
+    </div>
+    <div class="last">
+        <div class="links">
+        <img src="images/logo-bookmark.svg"/>
+        <a href="#FEATURES">FEATURES</a>
+        <a href="#PRICING">PRICING</a>
+        <a href="#CONTACT">CONTACT</a>
+    </div>
+    <div class="icons">
+        <img src="images/icon-facebook.svg">
+        <img src="images/icon-twitter.svg">
+    </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+<script src="main.js"></script>
+</body>
+</html> 
+
+
